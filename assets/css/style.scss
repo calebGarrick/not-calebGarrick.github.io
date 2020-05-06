@@ -11,15 +11,16 @@
 @import "{{ site.theme }}";
 
 header {
-  width:960px;
+  width:auto;
+  margin-right: -20px;
   float:none;
   position:static;
+  padding:10px 20px 0;
 }
 
 @media print, screen and (max-width: 960px){
   header{padding:10px 20px 0;}
   header ul{right:80px;top:93px}
-  section {padding:10px 0 20px 20px;}
 }
 
 @media print, screen and (max-width: 480px){
